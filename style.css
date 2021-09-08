@@ -1,0 +1,94 @@
+body{
+	background-image: url(Image.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-size: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.Login-Page{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+	background-position: right;
+	background-attachment: fixed;
+}
+.Form{
+	position: relative;
+	z-index: 1;
+	background:  rgba(0, 0, 255, 0.2);;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: centre;
+}
+.form input{
+	background: #f2f2f2;
+	font-family: "Roboto" sans-serif;
+	outline: 1;
+	width: 100%;
+	margin: 0 0 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form button{
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: Blue;
+	width: 100%;
+	border: 2;
+	padding: 15px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+.Form1{
+	position: relative;
+	z-index: 1;
+	background:  rgba(0, 0, 255, 0.2);;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: centre;
+}
+.form1 input{
+	background: #f2f2f2;
+	font-family: "Roboto" sans-serif;
+	outline: 1;
+	width: 100%;
+	margin: 0 0 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form1 button{
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: Blue;
+	width: 100%;
+	border: 2;
+	padding: 15px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+.form button:hover,.form button:active{
+	background: green;
+}
+.form message{
+	margin: 15px,0,0;
+	color: aliceblue;
+	font-size: 12px;
+}
+.form message a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+.form .register-form{
+	display: inline;
+}
